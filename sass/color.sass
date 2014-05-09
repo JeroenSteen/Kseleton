@@ -1,0 +1,6 @@
+$amount : 444
+
+@for $colors from 1 through $amount
+  div:nth-child(#{$colors})
+    $random : random(365)
+    background-color: hsla($random, 90, 50, 1)
