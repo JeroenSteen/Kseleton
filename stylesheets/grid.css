@@ -24,6 +24,11 @@
   margin-right: 0;
 }
 
+.col.between {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .container .col1.col {
   width: 40px;
 }
